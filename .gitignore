@@ -1,0 +1,25 @@
+# 環境変数ファイル（APIキーを含むため必ずIgnore）
+.env
+.env.local
+.env.*.local
+
+# Node.js の依存関係
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Vite ビルド成果物
+frontend/dist/
+frontend/.vite/
+
+# ログファイル
+*.log
+npm-debug.log*
+
+# OS 生成ファイル
+.DS_Store
+Thumbs.db
+
+# IDE 設定ファイル
+.vscode/
+.idea/
